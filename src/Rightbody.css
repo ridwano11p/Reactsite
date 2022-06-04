@@ -1,0 +1,224 @@
+.rightcon{
+    position: relative;
+    left: 700px;
+    top: -500px;
+    height: auto;
+    background-clip: padding-box;
+ border: rgb(255, 255, 255) solid;
+ background-color: white;
+ border-width: 40px;
+ 
+ 
+}
+
+
+
+.btn-login {
+    border: 1px transparent;
+    border-radius: 2.5px;
+    color: #df522f;
+    font-size: 16px;
+    min-height: 32px;
+  }
+  
+  .btn-facebook, .btn-facebook:active {
+    background-color: #df522f;
+    font-family: Lato, sans-serif;
+    width: 600px;
+    height: 60px;
+  }
+  
+  .btn-facebook:hover {
+    background-color: #e7ded8;;
+  }
+  
+  
+  
+  
+  
+  .btn-login-logo {
+    display: inline-block;
+    font-size: 30px;
+    padding-right: 6.5px;
+   
+    min-width: 20px;
+    min-height: 20px;
+
+   
+    background: rgb(255, 255, 255);
+  }
+  
+  .btn-text {  
+    display: inline-block;
+    padding: 4.5px 7.5px;
+    color: white;
+    font-size: 30px;
+  }
+  .h2{
+    font-size: 34px;
+    text-align: center;
+    
+  }
+  .bord1{
+    width: 220px;
+    position: relative;
+    top: 50px;
+    
+    border-style: solid;
+    border-color: gray;
+    border-width: 0.2px;
+    
+  }
+  .p3{
+    position: relative;
+    top: -45px;
+    left: 230px;
+    top: 2px;
+  }
+  .bord2{
+    width: 300px;
+    position: relative;
+    left: 275px;
+    top: -36px;
+    
+    border-style: solid;
+    border-color: gray;
+    border-width: 0.2px;
+    
+  }
+
+
+
+
+/* this code is for Email button*/
+
+.btn-login2 {
+  border: 1px transparent;
+  border-radius: 2.5px;
+  color: grey;
+  font-size: 16px;
+  min-height: 32px;
+}
+
+.btn-email, .btn-email:active {
+  background-color: rgb(212, 212, 212);
+  font-family: Lato, sans-serif;
+  width: 600px;
+  height: 60px;
+}
+
+.btn-email:hover {
+  background-color: greenyellow
+}
+
+.btn-text2 {  
+  display: inline-block;
+  padding: 4.5px 7.5px;
+  color: black;
+  font-size: 30px;
+}
+
+
+/* style for signup modal*/
+.closetext{
+  font-size: 10px;
+  color: yellow;
+  
+}
+.closebtn{
+  float: right;
+  background-color: #df522f;
+
+}
+/* form background and style*/
+
+.modal1 {
+  
+ 
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */ 
+}
+.formbody{
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+
+#form-container {
+	margin-left: 28%;
+	width: 600px;
+	height: 300px;
+	background-color: none;
+	border: 1px #ff5722 solid;
+}
+#titile {
+	margin-left: 28%;
+	width: 602px;
+	height: 30px;
+	background-color: #ff5722;
+}
+
+input[type="text"], input[type="password"] {
+	width: 250px;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 3.50%;
+
+}
+input[type="submit"] {
+	width: 500px;
+	height: 30px;
+	background-color: #ff5722;
+	color: white;
+	border: none;
+	margin-top: 10px;
+	margin-left: 50px;
+	cursor: pointer;
+
+}
+
+input[type="submit"]:hover {
+	background-color: #ff6d3f;
+}
+
+fieldset {
+	width: 600px;
+	margin-left: 28%;
+	height: 200px;
+	margin-top: 15%;
+}
+
+a {
+	text-decoration-style: double;
+	text-decoration-line: unset;
+	text-rendering: auto;
+  color: rgb(53, 170, 206);
+}
+
+input[type="checkbox"] {
+    margin-left: 7px;
+}
+#show-password {
+	margin-left: 150px;
+	font-family: sans-serif;
+}
+
+input[type="checkbox"]{
+	cursor: pointer;
+}
+#signup {
+	font-family: sans-serif;
+}
+
+
+

@@ -1,0 +1,19 @@
+.logocontainer{
+   display:inline-block;
+   vertical-align: top;
+}
+
+.imglogo{
+   max-width:100%;
+   height: auto;
+    
+    width: 150px;
+    height: 150px;
+}
+.hcon{
+    display: inline-block;
+    
+} 
+.headtext{
+    font-size: 50px;
+}
